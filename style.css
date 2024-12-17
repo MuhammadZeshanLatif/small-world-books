@@ -284,7 +284,7 @@ section a:hover {
 /* Button Styles */
 .actionBtn {
     display: inline-block;
-    background: #474849bd;;
+    background: #573ba3d5;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -303,13 +303,13 @@ section a:hover {
 }
 
 .actionBtn:hover {
-    background: #474849;
+    background: #573ba3;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .actionBtn:active {
-    background: #474849;
+    background: #573ba3;
     transform: translateY(0);
     box-shadow: none;
 }
