@@ -9,7 +9,7 @@
     <meta name="Keywords"
         content="Small World Books, SWB, Venice Beach Boardwalk bookstore, Mary Goodfader, independent bookseller, the mystery annex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Noto+Sans+JP:wght@300;400;700&display=swap"
         rel="stylesheet">
@@ -66,7 +66,6 @@
     <main id="mainContent">
         <section id="sliderSection">
             <div id="slider">
-                <!-- Updated images in the slider -->
                 <div class="slide active">
                     <img src="images/image-1.jpg" alt="Cozy reading nook at Small World Books">
                 </div>
@@ -87,6 +86,7 @@
             </div>
         </section>
 
+        <!-- About Section Updated -->
         <section id="about" class="animated-heading">
             <h2>About</h2>
             <div class="overlayContent">
@@ -94,22 +94,31 @@
                     want is the book you should have. We are a general bookstore and carry a wide selection of titles
                     published by both major and small presses. Located on the exciting Venice boardwalk, we have a
                     well-read staff anxious to find the book you want.</p>
-                <p>Don't know what you want? <a href="mailto:info@smallworldbooks.com">Email us</a> and tell us about
-                    other books you've liked and we'll find the next one.</p>
+                <p>Don't know what you want? Email us and tell us about other books you've liked and we'll find the next one.</p>
+                <button class="actionBtn" onclick="window.open('mailto:info@smallworldbooks.com','_blank')">
+                    <i class="fa fa-envelope"></i> Email Us
+                </button>
             </div>
         </section>
 
+        <!-- Shopping Section Updated -->
         <section id="shopping" class="animated-heading">
             <h2>Shopping SWB</h2>
             <img src="images/image-3.jpg" class="inlineImage" alt="A stack of books ready for customers">
             <p><strong>Want to visit our store?</strong> We care about our customers. During this time of crisis, we are
                 allowing 4 browsers at a time in the store to maintain social distancing. <em><u>Masks are
                         required</u></em>. We will provide hand sanitizer and gloves.</p>
-            <p><strong>Want to order a book online?</strong> Visit us at <a
-                    href="https://bookshop.org/shop/smallworldbooks">Bookshop</a>. Your book will be sent to your home
+
+            <p><strong>Want to order a book online?</strong> Visit us at Bookshop. Your book will be sent to your home
                 or device and Small World Books gets the sale!</p>
-            <p><strong>Want to order an audiobook or e-book online?</strong> Visit us at <a
-                    href="https://smallworldbooks.papertrell.com/">Hummingbird</a>. Super convenient!</p>
+            <button class="actionBtn" onclick="window.open('https://bookshop.org/shop/smallworldbooks', '_blank')">
+                <i class="fa fa-book"></i> Go to Bookshop
+            </button>
+
+            <p><strong>Want to order an audiobook or e-book online?</strong> Visit us at Hummingbird. Super convenient!</p>
+            <button class="actionBtn" onclick="window.open('https://smallworldbooks.papertrell.com/', '_blank')">
+                <i class="fa fa-book-reader"></i> Go to Hummingbird
+            </button>
         </section>
 
         <section id="history" class="animated-heading">

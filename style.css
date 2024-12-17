@@ -280,3 +280,36 @@ section a:hover {
         font-size: 20px;
     }
 }
+
+/* Button Styles */
+.actionBtn {
+    display: inline-block;
+    background: #474849bd;;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.actionBtn i {
+    margin-right: 5px;
+}
+
+.actionBtn:hover {
+    background: #474849;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.actionBtn:active {
+    background: #474849;
+    transform: translateY(0);
+    box-shadow: none;
+}
